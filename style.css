@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    padding: 20px;
+  }
+  
+  #terminal {
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: pre-wrap;
+  }
+  
+  .typing {
+    opacity: 0;
+    animation: appear 0.5s forwards;
+  }
+  
+  .delay1 { animation-delay: 1s; }
+  .delay2 { animation-delay: 2s; }
+  .delay3 { animation-delay: 3s; }
+  .delay4 { animation-delay: 4s; }
+  .delay5 { animation-delay: 5s; }
+  .delay6 { animation-delay: 6s; }
+  .delay7 { animation-delay: 7s; }
+  
+  .success {
+    color: cyan;
+  }
+  
+  .warning {
+    color: red;
+  }
+  
+  @keyframes appear {
+    to {
+      opacity: 1;
+    }
+  }
+  
